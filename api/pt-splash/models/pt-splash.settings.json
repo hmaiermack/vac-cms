@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "pt_splashes",
+  "info": {
+    "name": "PT splash"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "first_header": {
+      "type": "string"
+    },
+    "sub_header": {
+      "type": "string"
+    },
+    "consultation_blurb": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultation.consultation-blurb"
+    }
+  }
+}

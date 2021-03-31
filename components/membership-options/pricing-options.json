@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_membership_options_pricing_options",
+  "info": {
+    "name": "pricing_options",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "Single": {
+      "type": "decimal"
+    },
+    "Couple": {
+      "type": "decimal"
+    },
+    "Family": {
+      "type": "decimal"
+    }
+  }
+}

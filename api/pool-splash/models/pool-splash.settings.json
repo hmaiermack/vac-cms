@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pool_splashes",
+  "info": {
+    "name": "pool splash"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "first_header": {
+      "type": "string"
+    },
+    "sub_header": {
+      "type": "string"
+    }
+  }
+}

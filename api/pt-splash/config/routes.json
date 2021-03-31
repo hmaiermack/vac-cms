@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pt-splash",
+      "handler": "pt-splash.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pt-splash",
+      "handler": "pt-splash.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pt-splash",
+      "handler": "pt-splash.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

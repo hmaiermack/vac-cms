@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_membership_options_membership_options",
+  "info": {
+    "name": "membership_options",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "membership_type": {
+      "type": "string",
+      "default": "full club, pool etc."
+    },
+    "pricing_options": {
+      "type": "component",
+      "repeatable": false,
+      "component": "membership-options.pricing-options"
+    },
+    "membership_type_information": {
+      "type": "richtext"
+    }
+  }
+}

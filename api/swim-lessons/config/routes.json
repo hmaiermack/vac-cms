@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/swim-lessons",
+      "handler": "swim-lessons.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/swim-lessons",
+      "handler": "swim-lessons.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/swim-lessons",
+      "handler": "swim-lessons.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

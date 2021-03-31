@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/one-on-one-training",
+      "handler": "one-on-one-training.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/one-on-one-training",
+      "handler": "one-on-one-training.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/one-on-one-training",
+      "handler": "one-on-one-training.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

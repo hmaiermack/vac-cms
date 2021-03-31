@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/semi-private-training",
+      "handler": "semi-private-training.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/semi-private-training",
+      "handler": "semi-private-training.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/semi-private-training",
+      "handler": "semi-private-training.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

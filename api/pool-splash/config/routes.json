@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pool-splash",
+      "handler": "pool-splash.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pool-splash",
+      "handler": "pool-splash.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pool-splash",
+      "handler": "pool-splash.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_advertisement_advertisement_blurbs",
+  "info": {
+    "name": "advertisement_blurb",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "icon_code": {
+      "type": "string"
+    },
+    "blurb_header": {
+      "type": "string"
+    },
+    "blurb_text": {
+      "type": "text"
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/swim-team",
+      "handler": "swim-team.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/swim-team",
+      "handler": "swim-team.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/swim-team",
+      "handler": "swim-team.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

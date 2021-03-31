@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "first_header": {
+      "type": "string"
+    },
+    "second_header": {
+      "type": "string"
+    },
+    "ad_description": {
+      "type": "text"
+    },
+    "advertisement_blurb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "advertisement.advertisement-blurb"
+    },
+    "ad_tagline": {
+      "type": "string"
+    }
+  }
+}

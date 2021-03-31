@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_consultation_consultation_blurbs",
+  "info": {
+    "name": "consultation_blurb",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

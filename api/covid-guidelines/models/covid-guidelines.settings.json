@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "covid_guidelines",
+  "info": {
+    "name": "covid guidelines",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "guideline_text": {
+      "type": "richtext"
+    },
+    "weekday_hours": {
+      "type": "string"
+    },
+    "weekend_hours": {
+      "type": "string"
+    },
+    "updated_date": {
+      "type": "string"
+    }
+  }
+}

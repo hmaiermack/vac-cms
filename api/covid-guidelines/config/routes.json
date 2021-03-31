@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/covid-guidelines",
+      "handler": "covid-guidelines.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/covid-guidelines",
+      "handler": "covid-guidelines.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/covid-guidelines",
+      "handler": "covid-guidelines.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

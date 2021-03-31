@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "swim_teams",
+  "info": {
+    "name": "swim team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "first_header": {
+      "type": "string"
+    },
+    "sub_header": {
+      "type": "string"
+    }
+  }
+}
