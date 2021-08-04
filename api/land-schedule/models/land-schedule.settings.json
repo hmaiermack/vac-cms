@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "land_schedules",
+  "info": {
+    "name": "land schedule"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}
