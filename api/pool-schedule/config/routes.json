@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pool-schedule",
+      "handler": "pool-schedule.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pool-schedule",
+      "handler": "pool-schedule.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pool-schedule",
+      "handler": "pool-schedule.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

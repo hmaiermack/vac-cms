@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "pool_schedules",
+  "info": {
+    "name": "pool schedule"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}
